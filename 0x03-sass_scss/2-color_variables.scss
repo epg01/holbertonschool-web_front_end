@@ -1,0 +1,16 @@
+/* Write a Sass file that assigns the Backgraund-color the HTML tags body, p and h2 */ 
+
+$colorText: #3D3D3D;
+$BackgroundColor: #6D6D6D;
+
+body {
+    color: $colorText;
+    background-color: $BackgroundColor;                    
+}
+  
+p {
+    color: $colorText; }
+
+h2 {
+    background-color: $BackgroundColor;
+}

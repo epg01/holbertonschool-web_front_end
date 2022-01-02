@@ -1,0 +1,6 @@
+/*List sort names*/
+@import '103-sort_list.scss';
+
+@each $list in ($list_to_sort) {
+    @debug $list;
+}

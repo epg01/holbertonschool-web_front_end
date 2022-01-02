@@ -1,0 +1,10 @@
+/* Write file font size tags body, h1 */
+body {
+    font-size: 14px;
+    h1 {
+        font-size: 16px;
+        &.smaller {
+            font-size: 12px;
+        }
+    }
+}

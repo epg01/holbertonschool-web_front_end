@@ -1,0 +1,29 @@
+/*Write a Sass file that assigns Media query*/
+
+$fontS1: 20px;
+$fontS2: 18px;
+$fontS3: 16px;
+$fontS4: 14px;
+$textColorh1: #1D1D1D;
+
+h1 {
+  font-size: $fontS1;
+  @media screen and (max-width: 960px) {
+    & {
+      font-size: $fontS2;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    & {
+      font-size: $fontS3;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    & {
+      font-size: $fontS4;
+    }
+    &.small {
+      color: $textColorh1;
+    }
+  }
+}

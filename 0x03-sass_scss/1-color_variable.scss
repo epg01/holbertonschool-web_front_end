@@ -1,0 +1,9 @@
+/* Write a Sass file that assigns the text color the HTML tags body and p */ 
+
+$colorText: #3D3D3D;
+
+body {
+    color: $colorText; }
+  
+p {
+    color: $colorText; }

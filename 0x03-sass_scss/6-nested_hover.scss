@@ -1,0 +1,8 @@
+/* Write text-color the elements inside tags body and text-color a class .red */
+button {
+    color: #FF0000;
+    &:hover {
+        color: #00FF00;
+     }
+
+    }

@@ -1,0 +1,11 @@
+/* Write a Sass file that assigns no margin or padding in body margin to the tags p inside body */ 
+
+body {
+  margin: 0px;
+  padding: 0px;
+  p {
+      margin: 10px;
+  }
+    
+}
+  

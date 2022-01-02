@@ -1,0 +1,9 @@
+/* Write text-color the elements inside tags body and text-color a class .red */
+body  {
+    color: #3D3D3D;
+     > .red {
+        color: #FF0000;
+     }
+       
+   }
+ 
